@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size: calc(100vw/750);
+    /* 1vw就是1%的视窗宽度 */
+    /*  1rem= 1/750的总vw=相对于根元素（比如html）字体大小的相对长度单位 c  */
+
+}
+
+img{
+    width:100%;
+    vertical-align: middle;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
